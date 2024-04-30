@@ -1,0 +1,20 @@
+/**
+
+@mainpage EPL232 hw2 
+
+@author Elena Eleftheriou
+
+CityLink is a C program that analyzes graph data representing cities and their connections. It computes the transitive closure of the graph and provides functionalities to find paths between cities.
+
+CityLink reads a graph from an input file, processes the data, and performs operations based on user-defined arguments. It creates a neighbor table from the input file, generates the R* table representing edges of the graph, computes the transitive closure of the graph using the R* table, and finds paths between specified source and destination cities.
+
+@arg
+-i <inputfile>: Specifies the input file containing graph data.
+@arg
+-r <sourceCity>,<destCity>: Specifies source and destination cities for path finding.
+@arg
+-p: Prints the transitive closure path between source and destination cities.
+@arg
+-o: Outputs the R* table to a file (default: out-inputfile.txt).
+
+Bugs: No known bugs.
